@@ -6,4 +6,4 @@ Files:
 - index.html
 - style.css
 - script.js
-- assets/logo.jpg
+<img src="logo.jpg"
