@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://orchlontulga.mn/sitemap.xml
+
+# update
