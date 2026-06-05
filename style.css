@@ -108,8 +108,8 @@ a {
 
 .hero {
     background:
-        linear-gradient(rgba(7,17,31,0.75), rgba(7,17,31,0.75)),
-        url("assets/mining-hero.jpg.jpg");
+        linear-gradient(rgba(7,17,31,0.70), rgba(7,17,31,0.70)),
+        url("./assets/mining-hero.jpg.jpg");
 
     background-size: cover;
     background-position: center;
