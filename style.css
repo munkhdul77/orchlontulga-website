@@ -554,3 +554,17 @@ footer {
     font-size:34px;
   }
 }
+.project-gallery a{
+    display:block;
+    overflow:hidden;
+    border-radius:16px;
+}
+
+.project-gallery img{
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.project-gallery img:hover{
+    transform:scale(1.05);
+}
