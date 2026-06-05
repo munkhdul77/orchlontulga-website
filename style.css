@@ -402,3 +402,53 @@ footer {
     text-align: center;
   }
 }
+.service-grid {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.service-card {
+  position: relative;
+  min-height: 260px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 22px 55px rgba(15, 35, 65, 0.16);
+}
+
+.service-icon {
+  width: 62px;
+  height: 62px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #f5b71b, #ff8a00);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.service-card h3 {
+  font-size: 21px;
+  line-height: 1.35;
+  color: #102033;
+}
+
+.service-card p {
+  font-size: 15.5px;
+  line-height: 1.7;
+  color: #526173;
+}
+
+@media (max-width: 1100px) {
+  .service-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 650px) {
+  .service-grid {
+    grid-template-columns: 1fr;
+  }
+}
