@@ -107,11 +107,17 @@ a {
 }
 
 .hero {
-  background:
-    linear-gradient(120deg, rgba(7,17,31,0.95), rgba(13,38,73,0.92)),
-    radial-gradient(circle at top right, rgba(245,183,27,0.25), transparent 28%);
-  color: white;
-  padding: 94px 0;
+    background:
+        linear-gradient(rgba(7,17,31,0.75), rgba(7,17,31,0.75)),
+        url("assets/mining-hero.jpg.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: white;
+    min-height: 100vh;
+    padding: 94px 0;
 }
 
 .hero-grid {
