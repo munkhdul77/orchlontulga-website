@@ -784,3 +784,42 @@ footer {
     transform:scale(1.01);
 
 }
+.pdf-scroll-gallery{
+    width:100%;
+    max-width:900px;
+
+    height:800px;
+
+    overflow-y:auto;
+
+    margin-top:30px;
+
+    padding:20px;
+
+    background:#fff;
+
+    border-radius:16px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.12);
+}
+
+.pdf-scroll-gallery img{
+
+    width:100%;
+
+    display:block;
+
+    margin-bottom:20px;
+
+    border-radius:10px;
+
+    box-shadow:0 6px 18px rgba(0,0,0,.15);
+
+    transition:.3s;
+}
+
+.pdf-scroll-gallery img:hover{
+
+    transform:scale(1.01);
+
+}
