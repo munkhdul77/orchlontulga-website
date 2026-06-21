@@ -747,3 +747,40 @@ footer {
   background-position: center right !important;
   background-repeat: no-repeat !important;
 }
+.pdf-scroll-gallery{
+    width:90%;
+    max-width:1000px;
+    height:900px;
+
+    overflow-y:auto;
+
+    margin:40px auto;
+    padding:20px;
+
+    background:#fff;
+
+    border-radius:16px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.12);
+}
+
+.pdf-scroll-gallery img{
+
+    width:100%;
+
+    display:block;
+
+    margin-bottom:20px;
+
+    border-radius:12px;
+
+    box-shadow:0 6px 18px rgba(0,0,0,.15);
+
+    transition:.3s;
+}
+
+.pdf-scroll-gallery img:hover{
+
+    transform:scale(1.01);
+
+}
